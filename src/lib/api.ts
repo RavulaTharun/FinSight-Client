@@ -1,6 +1,6 @@
 import { apiRequest } from "./queryClient";
 
-export const API_BASE = "http://localhost:3000/api";  // Flask backend
+export const API_BASE = "https://tharu1729-finsight-rag.hf.space/api";   // Flask backend
 
 export interface UploadResponse {
   status: string;
